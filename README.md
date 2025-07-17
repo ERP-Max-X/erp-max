@@ -22,13 +22,19 @@
 git clone https://github.com/ERP-Max-X/erp-max.git
 cd ERP-Max
 
+## Для Бек розробника
+
 git clone https://github.com/ERP-Max-X/tenant-svc.git
 
 git clone https://github.com/ERP-Max-X/erp-svc.git
 
 git clone https://github.com/ERP-Max-X/graphql-gateway.git
 
+## Для Фронт розробника
+
 git clone https://github.com/ERP-Max-X/erp-front.git
+
+## Для повного запуску проекту потрібно всі гілки
 ````
 3️⃣ Створи папки
 

@@ -16,5 +16,22 @@
 2️⃣ Клонувати репозиторій:
 
 ```bash
-git clone https://github.com/yourusername/ERP-Max.git
+git clone https://github.com/taraschubarko/erp-max.git
 cd ERP-Max
+
+git clone https://github.com/taraschubarko/erp-max-tenant-svc.git
+
+git clone https://github.com/taraschubarko/erp-max-erp-svc.git
+
+git clone https://github.com/taraschubarko/erp-max-graphql-gateway.git
+````
+3️⃣ Створи папки
+
+    data/redis
+    data/postgres
+    data/rabbitmq
+
+4️⃣ Запусти команду
+
+    docker-compose up --build
+

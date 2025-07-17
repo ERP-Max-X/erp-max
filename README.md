@@ -2,12 +2,15 @@
 
 Мультисервісний ERP-проект для локального запуску через Docker.
 
-## Структура:
+## Структура: Back-End
 
 - API Gateway: `graphql-gateway/`
 - Tenant Service: `tenant-svc/`
 - ERP Service: `erp-svc/`
 - Сховище даних: `data/` (postgres, redis, rabbitmq)
+
+## Структура: Front-End
+- API Gateway: `erp-front/`
 
 ## Як запустити:
 
@@ -16,14 +19,16 @@
 2️⃣ Клонувати репозиторій:
 
 ```bash
-git clone https://github.com/taraschubarko/erp-max.git
+git clone https://github.com/ERP-Max-X/erp-max.git
 cd ERP-Max
 
-git clone https://github.com/taraschubarko/erp-max-tenant-svc.git
+git clone https://github.com/ERP-Max-X/tenant-svc.git
 
-git clone https://github.com/taraschubarko/erp-max-erp-svc.git
+git clone https://github.com/ERP-Max-X/erp-svc.git
 
-git clone https://github.com/taraschubarko/erp-max-graphql-gateway.git
+git clone https://github.com/ERP-Max-X/graphql-gateway.git
+
+git clone https://github.com/ERP-Max-X/erp-front.git
 ````
 3️⃣ Створи папки
 

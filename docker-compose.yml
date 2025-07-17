@@ -108,21 +108,6 @@ services:
     networks:
       - erp-max-network
 
-  erp-front:
-    build:
-      context: ./erp-front
-      dockerfile: Dockerfile
-    container_name: erp-max-erp-front
-    ports:
-      - "4000:4000"          # Порт 4200 у контейнері мапимо на 4000 локально
-    volumes:
-      - ./erp-front:/app      # Маунтимо код для live reload
-      - /app/node_modules    # Щоб не перезаписувати node_modules хостом
-    environment:
-      - CHOKIDAR_USEPOLLING=true   # Якщо проблеми з watch на Docker Desktop
-    networks:
-      - erp-max-network
-
 networks:
   erp-max-network:
     driver: bridge

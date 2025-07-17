@@ -1,0 +1,7 @@
+/data/postgres/*
+/data/redis/*
+/data/rabbitmq/*
+!*/.gitkeep
+/tenant-svc/*
+/erp-svc/*
+/graphql-gateway/*
